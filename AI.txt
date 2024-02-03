@@ -1,0 +1,11 @@
+type of machine learning
+1. supervised 
+	- regression
+	 algorithm uses: linear, multiple linear, support vetor machine(SVM), random forest, decison tree
+	- classification
+	 logistic, KNN, SVM, random forest, decison tree
+2. unsupervised
+	- clustering
+	  - K mean clustering, mean shift
+	- association
+3. rainforcement

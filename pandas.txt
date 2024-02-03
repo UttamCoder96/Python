@@ -1,0 +1,4 @@
+pandas
+	-series- 1D
+	-dataframe-2D
+	-panel-3D

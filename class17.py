@@ -12,10 +12,10 @@ except Exception as e:
     print(e)
 
 
+from class17_temp2 import take
 import class17_temp as operation
-from class17_temp2 import inputs
 def main():
-    x, y = inputs()
+    x, y = take()
     while True:
         print('''
               1. Additon
@@ -23,7 +23,7 @@ def main():
               3. Division
               4. Subtraction
               5. Exit''')
-        operator = int(input('Operation you want: '))
+        operator = input('Operation you want: ')
         if operator == '1':
             print(operation.Add(x, y))
         elif operator == '2':
@@ -35,4 +35,5 @@ def main():
         elif operator == '5':
             break
 main()
+        
         

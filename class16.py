@@ -1,6 +1,6 @@
 #function overriding
 class Animal:
-    def cat(self):
+    def cat1(self):
         print('parent')
 class Dog(Animal):
     def cat1(self):
@@ -10,11 +10,11 @@ obj1.cat1()
 print("----------------")
 #super function
 class Animal:
-    def cat(self):
+    def cat1(self):
         print('parent')
 class Dog(Animal):
     def cat1(self):
-        super().cat()  #super function
+        super().cat1()  #super function
         print('child')
 obj1 = Dog()
 obj1.cat1()

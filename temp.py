@@ -1,24 +1,10 @@
-from class17_temp2 import take
-import class17_temp as operation
-def main():
-    x, y = take()
-    while True:
-        print('''
-              1. Additon
-              2. Multipolicaton
-              3. Division
-              4. Subtraction
-              5. Exit''')
-        operator = input('Operation you want: ')
-        if operator == '1':
-            print(operation.Add(x, y))
-        elif operator == '2':
-            print(operation.Mul(x, y))
-        elif operator == '3':
-            print(operation.Div(x, y))
-        elif operator == '4':
-            print(operation.Sub(x, y))
-        elif operator == '5':
-            break
-main()
-        
+import pandas as pd
+list1 = ['Uttam', 20,'mukhiya' ]
+a = pd.Series(list1)
+dict1 = {1: 'Uttam', 2:'Pragyan'}
+b = pd.Series(dict1)
+list2 = [['Uttam', 20, 'ilam'] ,['Pragyan', 20, 'dang']]
+c = pd.DataFrame(list2, columns = ['name', 'age', 'address'])
+print(a)
+print(b)
+print(c)
